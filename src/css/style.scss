@@ -1,0 +1,64 @@
+@use "./Navbar.scss";
+@use "./HeroSection.scss";
+@use "./ÜrünKategori.scss";
+@use "./Footer.scss";
+@use "./Contact.scss";
+@use "./Products.scss";
+
+@import url("https://fonts.cdnfonts.com/css/sf-pro-display");
+
+body {
+  font-family: "SF Pro Display", sans-serif !important;
+  font-size: 20px !important;
+  font-weight: 420 !important;
+  padding: 0px !important;
+  overflow-x: hidden !important;
+  overflow-y: scroll !important;
+}
+.navbar {
+  color: #000000 !important;
+}
+.footer {
+  background-color: #23005c !important;
+  color: #6f613d !important;
+}
+.alt-footer {
+  background-color: #006a67 !important;
+}
+// Media Queries
+@media (max-width: 578px) {
+  #top-header {
+    display: none !important;
+  }
+  .navbar {
+    padding: 10px !important;
+    .navbar-brand {
+      width: 130px;
+      height: 80px;
+      color: darkblue !important;
+    }
+  }
+
+  #carouselExample img {
+    height: 600px !important;
+  }
+  #product-categories {
+    .col-sm-6 {
+      margin: 10px auto;
+      width: 45%;
+      text-align: center;
+      flex: 45%;
+      box-shadow: 0 4px 2px -2px gray;
+    }
+  }
+  .divider {
+    border: 3px solid #006a67;
+    width: 310px !important;
+    transform: translateX(10%);
+  }
+}
+@media (min-width: 578px) and (max-width: 768px) {
+  #top-header {
+    display: none !important;
+  }
+}

@@ -1,0 +1,40 @@
+#product-categories .col {
+  margin: 10px auto;
+  box-shadow: 0 4px 2px -2px gray;
+}
+
+.d-grid .text-center .btn {
+  width: 300px;
+  color: white;
+  background-color: #006a67;
+  border: none;
+}
+.d-grid .divider {
+  border: 3px solid #006a67;
+  margin: 10px 0;
+}
+
+#product-categories .col-lg-3 {
+  width: 13% !important;
+}
+#product-categories .col-lg-3 img {
+  width: 70%;
+}
+#product-categories .col-md-3 {
+  width: 20% !important;
+}
+#product-categories .col-md-3 img {
+  width: 60%;
+}
+#product-categories .col-sm-6 {
+  width: 25% !important;
+}
+#product-categories .col-sm-6 img {
+  width: 60% !important;
+}
+
+.sponsor-content img {
+  width: 120px;
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+}/*# sourceMappingURL=ÜrünKategori.css.map */

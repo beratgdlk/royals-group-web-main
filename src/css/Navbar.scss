@@ -1,0 +1,40 @@
+.burger-icon {
+  border-radius: 15px;
+  transform: scale(1.7);
+}
+
+.navbar {
+  background-color: rgba(255, 255, 255, 0.856) !important;
+  margin: 0px !important;
+  box-shadow: 0 2px 5px rgb(87, 87, 87);
+
+  .navbar-brand {
+    width: 150px;
+    height: 100px;
+  }
+
+  .dropdown-menu {
+    background-color: #006a67 !important;
+    font-size: 20px !important;
+  }
+  .navbar-nav .nav-link {
+    text-decoration: none; // Ensure no underline by default
+  }
+
+  .navbar-nav .nav-link:hover {
+    text-decoration: underline; // Add underline on hover
+    transition: 3s;
+  }
+}
+
+.catalog {
+  color: #ffffff;
+  text-decoration: none;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+a {
+  color: #ffffff !important;
+}

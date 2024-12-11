@@ -1,0 +1,24 @@
+.carousel-inner {
+  height: 700px;
+}
+.carousel-inner .carousel-item {
+  height: 700px !important;
+}
+.carousel-inner .carousel-item .carousel-item img {
+  height: 800px !important;
+}
+
+#carouselExample {
+  border-bottom: 5px solid #006a67;
+}
+#carouselExample img {
+  height: 800px !important;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#carouselExample .slide-image {
+  -o-object-fit: fill !important;
+     object-fit: fill !important;
+  width: 100% !important;
+  height: 78vh !important;
+}/*# sourceMappingURL=HeroSection.css.map */

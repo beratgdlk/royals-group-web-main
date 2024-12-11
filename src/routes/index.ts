@@ -1,0 +1,6 @@
+export { default as AboutPage } from '../pages/About'
+export { default as HomePage } from '../pages/Home'
+export { default as ContactPage } from '../pages/Contact'
+export { default as ErrorPage } from '../pages/error-page'
+export { default as Root } from '../pages/Root'
+export { default as ProductsPage } from '../pages/Products'

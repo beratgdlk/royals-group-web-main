@@ -1,0 +1,23 @@
+.carousel-inner {
+  height: 700px;
+  .carousel-item {
+    height: 700px !important;
+    .carousel-item img {
+      height: 800px !important;
+    }
+  }
+}
+#carouselExample {
+  border-bottom: 5px solid #006a67;
+  img {
+    height: 800px !important;
+    object-fit: cover;
+  }
+
+  .slide-image {
+    object-fit: fill !important;
+    width: 100% !important;
+    height: 78vh !important;
+  }
+}
+

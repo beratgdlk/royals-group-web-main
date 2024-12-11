@@ -1,0 +1,14 @@
+.social-box {
+  padding: 3px;
+  box-shadow: 0 0 12px gray;
+  height: 35px;
+  width: 30px !important;
+  border-radius: 25%;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 0 2px 30px rgb(73, 73, 73) !important;
+    transform: scale(1.2);
+  }
+}

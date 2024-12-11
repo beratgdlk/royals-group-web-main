@@ -1,0 +1,9 @@
+#about-two-section-text p {
+  padding: 8px 0;
+}
+
+.column {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0px;
+}/*# sourceMappingURL=About.css.map */

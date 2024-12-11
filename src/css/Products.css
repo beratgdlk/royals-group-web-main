@@ -1,0 +1,35 @@
+.product-container {
+  padding: 80px 0px;
+  background-color: #e7e7e7 !important;
+}
+
+.banner-container img {
+  width: 100%;
+}
+
+.card {
+  background-color: #006a67 !important;
+  border: none !important;
+  transform: translateY(-66%);
+  height: 270px !important;
+  width: 250px;
+  box-shadow: 0 0 8px #222222;
+  margin: 15px 0;
+  transition: 0.3s ease-in-out;
+  color: aliceblue !important;
+  cursor: pointer;
+}
+.card .card-header {
+  height: 60%;
+  padding: 0 !important;
+  border: none !important;
+}
+.card .card-header .card-image {
+  height: 100%;
+}
+
+@media (max-width: 576px) {
+  .col-sm-6 {
+    width: 49.9% !important;
+  }
+}/*# sourceMappingURL=Products.css.map */

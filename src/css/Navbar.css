@@ -1,0 +1,33 @@
+.burger-icon {
+  border: 1px solid rgb(150, 150, 150);
+  border-radius: 15px;
+  transform: scale(1.5);
+  box-shadow: 0 0 6px gray;
+}
+
+.navbar {
+  box-shadow: 0 3px 7px rgb(10, 10, 10);
+  margin: 0px !important;
+  background-color: #ffffff !important;
+  color: rgb(10, 10, 10) !important;
+}
+.navbar .navbar-brand {
+  width: 140px;
+  height: 100px;
+}
+.navbar .dropdown-menu {
+  background-color: #006a67;
+  font-size: 20px !important;
+}
+
+.catalog {
+  color: #ffffff;
+  text-decoration: none;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+a {
+  color: #ffffff !important;
+} /*# sourceMappingURL=Navbar.css.map */

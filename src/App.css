@@ -1,0 +1,40 @@
+* {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.whatsapp-info {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #006a67;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: rgb(255, 255, 255);
+  box-shadow: 0 2px 15px rgb(41, 39, 39);
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+  animation: 2s transitionAnimation infinite alternate;
+}
+
+@keyframes transitionAnimation {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(9px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.catalog {
+  margin: auto;
+  justify-content: center;
+}
