@@ -9,9 +9,15 @@ import {
   CardBody,
   CardText,
 } from "react-bootstrap";
-import Navbar from "../components/NavbarComp";
-import AltFooter from "../components/AltFooter";
-import Footer from "../components/Footer";
+
+import temizlikKagıtFoto from "../assets/images/banners-images/temizlik-kagitlari.png";
+import digerÜrünlerFoto from "../assets/images/banners-images/diger-ürünler.png";
+import pipetlerFoto from "../assets/images/banners-images/pipetler.png";
+import hijyenikÜrünlerFoto from "../assets/images/banners-images/hijyenik-ürünler.png";
+import kagıtVeKartonlarFoto from "../assets/images/banners-images/kagit-ve-karton.png";
+import kaplarFoto from "../assets/images/banners-images/kaplar.png";
+import plastikÜrünlerFoto from "../assets/images/banners-images/plastik-ürünler.png";
+import aparatlarFoto from "../assets/images/banners-images/aparatlar.png";
 
 function Products() {
   const { categories } = useParams();
@@ -19,10 +25,30 @@ function Products() {
 
   const products = ProductsData[categories] || [];
 
+  let imageUrl = "";
+
+  // Fotografları bir objede tuttuk ve içerisindeki key degerlerini bizim parametre gönderdigimiz kategori ile karşılaştırdık hangisi eşlenirse o fotografı imageUrl ye gönderip src olarak vercek
+  const getUrlConditionBg = () => {
+    const categoryImages = {
+      temizlikKagitlari: temizlikKagıtFoto,
+      digerÜrünler: digerÜrünlerFoto,
+      pipetGrubu: pipetlerFoto,
+      hijyenikÜrünler: hijyenikÜrünlerFoto,
+      kagıtVeKarton: kagıtVeKartonlarFoto,
+      kaplar: kaplarFoto,
+      plastikÜrünler: plastikÜrünlerFoto,
+      aparatlar: aparatlarFoto,
+    };
+
+    imageUrl = categoryImages[categories] || "";
+  };
+
+  getUrlConditionBg();
+
   return (
     <>
       <div className="container-fluid p-0 banner-container">
-        <img src="/src/assets/images/banners-images/productBannerImage.png" />
+        <img src={imageUrl} />
       </div>
       <div className="container-fluid product-container my-3">
         <Container>
