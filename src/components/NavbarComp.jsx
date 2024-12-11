@@ -196,7 +196,7 @@ function NavbarComp() {
                     style={{
                       display: dropdownOpen ? "block" : "none",
                       position: "absolute",
-                      transform: "translateY(-2%)",
+                      transform: "translateY(-0.9%)",
                       top: "100%",
                       left: 0,
                       zIndex: 1000,

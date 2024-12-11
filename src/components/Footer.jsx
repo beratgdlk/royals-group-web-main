@@ -1,8 +1,4 @@
 import { Container, Row } from "react-bootstrap";
-import { FaFacebook } from "react-icons/fa";
-import { RiTwitterXLine } from "react-icons/ri";
-import { FaYoutube } from "react-icons/fa6";
-import { FaLinkedin } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -19,16 +15,12 @@ function Footer() {
                 vermeden, verimli ve sürdürülebilir bir hizmet anlayışını
                 benimsemekteyiz.
               </p>
-
             </div>
             <div className="col-lg-6 col-xxl-4  col-md-12 col-sm-12">
               <h3 className="fw-light text-light">E-Bülten</h3>
               <hr />
               <div>
-                <form
-                  action="https://formsubmit.co/yunusemre5331@icloud.com"
-                  method="POST"
-                >
+                <form action="mailto:info@royalgroup.com.tr" method="POST">
                   <div className="mb-3">
                     <label htmlFor="name" className="form-label text-white">
                       Adınız:
