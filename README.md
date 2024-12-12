@@ -1,4 +1,4 @@
-✓✓ Detailed SEO settings will be updated ✓✓
+Main
 
 ### Royals Group Web - Professional Project README
 
