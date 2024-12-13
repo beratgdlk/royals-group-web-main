@@ -1,4 +1,5 @@
 import { Container, Row } from "react-bootstrap";
+import "../css/Footer.scss";
 
 function Footer() {
   return (
@@ -35,7 +36,7 @@ function Footer() {
                   </div>
                   <div className="mb-3">
                     <label htmlFor="surname" className="form-label text-white">
-                      E-Posta Adres:
+                      E-Posta Adresi:
                     </label>
                     <input
                       type="text"
@@ -45,8 +46,8 @@ function Footer() {
                       className="form-control"
                     />
                   </div>
-                  <button type="submit" className="btn btn-dark fs-5 px-5 py-1">
-                    Ekle
+                  <button type="submit" className="btn btn-send fs-5 px-5 py-1">
+                    Gönder
                   </button>
                 </form>
               </div>
@@ -56,25 +57,24 @@ function Footer() {
               <hr />
               <p className="py-2 text-light">
                 <strong>Adres:</strong>
-                Halkalı Merkez, Avrupa Yakası, Basın Ekspres Cd. No:19/1/1,
-                34303 Küçükçekmece / İstanbul
+                Şahintepe Mahallesi Türker Caddesi, Kartal Sk. No:10, 34494 Başakşehir/İstanbul
               </p>
               <p className="text-light">
                 {" "}
                 <span>
-                  <strong>Telefon: </strong>0 212 456 7803
+                  <strong>Telefon: </strong>+90 530 287 70 02
                 </span>
               </p>
               <p className="text-light">
                 {" "}
                 <span>
-                  <strong>Email: </strong>info@ambalaj.com.tr
+                  <strong>Email: </strong>info@royalsgroup.com.tr
                 </span>
               </p>
               <p className="text-light">
                 <span>
                   <strong>Web: </strong>
-                  https://example.com.tr
+                  https://royalsgroup.com.tr
                 </span>
               </p>
             </div>
