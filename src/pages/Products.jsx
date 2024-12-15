@@ -10,14 +10,14 @@ import {
   CardText,
 } from "react-bootstrap";
 
-import temizlikKagıtFoto from "../src/assets/temizlik-kagitlari.png";
-import digerÜrünlerFoto from "../src/assets/diger-ürünler.png";
-import pipetlerFoto from "../src/assets/pipetler.png";
-import hijyenikÜrünlerFoto from "../src/assets/hijyenik-ürünler.png";
-import kagıtVeKartonlarFoto from "../src/assets/kagit-ve-karton.png";
-import kaplarFoto from "../src/assets/kaplar.png";
-import plastikÜrünlerFoto from "../src/assets/plastik-ürünler.png";
-import aparatlarFoto from "../src/assets/aparatlar.png";
+import temizlikKagitFoto from "../assets/temizlik-kagitlari.png";
+import digerÜrünlerFoto from "../assets/diger-ürünler.png";
+import pipetlerFoto from "../assets/pipetler.png";
+import hijyenikÜrünlerFoto from "../assets/hijyenik-ürünler.png";
+import kagıtVeKartonlarFoto from "../assets/kagit-ve-karton.png";
+import kaplarFoto from "../assets/kaplar.png";
+import plastikÜrünlerFoto from "../assets/plastik-ürünler.png";
+import aparatlarFoto from "../assets/aparatlar.png";
 
 function Products() {
   const { categories } = useParams();
@@ -30,7 +30,7 @@ function Products() {
   // Fotografları bir objede tuttuk ve içerisindeki key degerlerini bizim parametre gönderdigimiz kategori ile karşılaştırdık hangisi eşlenirse o fotografı imageUrl ye gönderip src olarak vercek
   const getUrlConditionBg = () => {
     const categoryImages = {
-      temizlikKagitlari: temizlikKagıtFoto,
+      temizlikKagitlari: temizlikKagitFoto,
       digerÜrünler: digerÜrünlerFoto,
       pipetGrubu: pipetlerFoto,
       hijyenikÜrünler: hijyenikÜrünlerFoto,
