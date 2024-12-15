@@ -126,7 +126,6 @@ function Contact() {
                   <button type="submit" className="btn btn-send">
                     Gönder
                   </button>{" "}
-                  {/* Gönder butonu eklendi */}
                 </div>
               </div>
             </form>

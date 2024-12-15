@@ -1,32 +1,32 @@
 function HeroSection() {
   return (
-    <div id="carouselExample" className="carousel slide">
+    <div id="carouselExample" className="carousel slide slider-container">
       <div className="carousel-inner">
         <div className="carousel-item active">
           <img
             src="/src/assets/images/homepage/rsg-banner1.png"
-            className="d-block w-100 slide-image"
+            className="slider-image"
             alt="..."
           />
         </div>
         <div className="carousel-item">
           <img
             src="/src/assets/images/homepage/rsg-banner2.png"
-            className="d-block w-100 slide-image"
+            className="slider-image"
             alt="..."
           />
         </div>
         <div className="carousel-item">
           <img
             src="/src/assets/images/homepage/rsg-banner3.png"
-            className="d-block w-100 slide-image"
+            className="slider-image"
             alt="..."
           />
         </div>
         <div className="carousel-item">
           <img
             src="/src/assets/images/homepage/rsg-banner4.png"
-            className="d-block w-100 slide-image"
+            className="slider-image"
             alt="..."
           />
         </div>
