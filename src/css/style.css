@@ -1,23 +1,29 @@
 @import url("https://fonts.cdnfonts.com/css/sf-pro-display");
 .burger-icon {
-  border: 1px solid rgb(150, 150, 150);
   border-radius: 15px;
-  transform: scale(1.5);
-  box-shadow: 0 0 6px gray;
+  transform: scale(1.7);
+  color: yellow !important;
 }
 
 .navbar {
-  box-shadow: 0 3px 7px rgb(10, 10, 10);
+  background-color: rgba(255, 255, 255, 0.856) !important;
   margin: 0px !important;
-  background-color: #e7e7e7 !important;
+  box-shadow: 0 2px 5px rgb(87, 87, 87);
 }
 .navbar .navbar-brand {
-  width: 140px;
+  width: 150px;
   height: 100px;
 }
 .navbar .dropdown-menu {
-  background-color: #006a67;
+  background-color: #006a67 !important;
   font-size: 20px !important;
+}
+.navbar .navbar-nav .nav-link {
+  text-decoration: none;
+}
+.navbar .navbar-nav .nav-link:hover {
+  text-decoration: underline;
+  transition: 3s;
 }
 
 .catalog {
@@ -48,11 +54,11 @@ a {
 #carouselExample img {
   height: 800px !important;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 #carouselExample .slide-image {
   -o-object-fit: fill !important;
-  object-fit: fill !important;
+     object-fit: fill !important;
   width: 100% !important;
   height: 78vh !important;
 }
@@ -95,7 +101,22 @@ a {
 .sponsor-content img {
   width: 120px;
   -o-object-fit: scale-down;
-  object-fit: scale-down;
+     object-fit: scale-down;
+}
+
+.btn-send {
+  color: white !important;
+  background-color: #B7A674 !important;
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 35px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.btn-send .btn-send:hover {
+  color: rgb(0, 0, 0);
+  background-color: #756a4a !important;
 }
 
 .social-box {
@@ -125,7 +146,7 @@ a {
   background-color: #006a67 !important;
   border: none !important;
   transform: translateY(-66%);
-  height: 20px !important;
+  height: 270px !important;
   width: 250px;
   box-shadow: 0 0 8px #222222;
   margin: 15px 0;
@@ -157,8 +178,7 @@ body {
 }
 
 .navbar {
-  background-color: #15054e !important;
-  color: #6f613d !important;
+  color: #000000 !important;
 }
 
 .footer {
@@ -202,4 +222,4 @@ body {
   #top-header {
     display: none !important;
   }
-} /*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

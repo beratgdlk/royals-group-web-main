@@ -1,1 +1,14 @@
-/*# sourceMappingURL=Footer.css.map */
+.btn-send {
+  color: white !important;
+  background-color: #B7A674 !important;
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 35px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.btn-send .btn-send:hover {
+  color: rgb(0, 0, 0);
+  background-color: #756a4a !important;
+}/*# sourceMappingURL=Footer.css.map */

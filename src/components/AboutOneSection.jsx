@@ -1,4 +1,8 @@
 import { Container, Row, Col } from "react-bootstrap";
+import kofteciYusufLogo from "../assets/köfteciYusuf.png";
+import lcwLogo from "../assets/lcwaikikilogo.png";
+import medipolLogo from "../assets/medipol-Logo.png";
+import cevreLogo from "../assets/çevreLogo.png";
 
 function AboutOneSection() {
   return (
@@ -34,11 +38,11 @@ function AboutOneSection() {
         <p>
           Müşterilerimizle uzun vadeli iş birlikleri kurma amacındayız ve bu
           doğrultuda, dürüstlük, şeffaflık ve güvenilirlik prensiplerine bağlı
-          kalarak her geçen gün kendimizi geliştirmekteyiz. Royal's Group
+          kalarak her geçen gün kendimizi geliştirmekteyiz. Royal&apos;s Group
           olarak, sektördeki yeniliklere hızla adapte olarak müşterilerimize en
           ileri çözümleri sunma hedefiyle hareket etmekteyiz.Bize duyulan
           güvenin sorumluluğuyla, kaliteyi ve müşteri memnuniyetini öncelikli
-          değerlerimiz olarak sürdürmeye devam edeceğiz.
+          değerlerimiz olarak sürdürmeye devam edeceğiz.
         </p>
       </Row>
       <Row className="mt-5 py-3 d-flex justify-content-center">
@@ -48,28 +52,22 @@ function AboutOneSection() {
 
         <div className="col-lg-3 col-md-3 col-sm-6 d-flex column-gap-2 justify-content-center">
           <div className="d-flex align-items-center  sponsor-content">
-            <img src="/src/assets/images/sponsorlar/köfteciYusuf.png" />
+            <img src={kofteciYusufLogo} alt="Köfteci Yusuf Logo" />
           </div>
         </div>
         <div className="col-lg-3 col-md-3 col-sm-6 d-flex column-gap-2 justify-content-center">
           <div className="d-flex align-items-center sponsor-content">
-            <img src="/src/assets/images/sponsorlar/lcwaikikilogo.png" />
+            <img src={lcwLogo} alt="LC Waikiki Logo" />
           </div>
         </div>
         <div className="col-lg-3 col-md-3 col-sm-6 d-flex column-gap-2 justify-content-center">
           <div className="d-flex align-items-center sponsor-content">
-            <img
-              className="img-fluid"
-              src="/src/assets/images/sponsorlar/medipol-Logo.png"
-            />
+            <img className="img-fluid" src={medipolLogo} alt="Medipol Logo" />
           </div>
         </div>
         <div className="col-lg-3 col-md-3 col-sm-6 d-flex column-gap-2 justify-content-center">
           <div className="d-flex align-items-center sponsor-content">
-            <img
-              className="img-fluid"
-              src="/src/assets/images/sponsorlar/çevreLogo.png"
-            />
+            <img className="img-fluid" src={cevreLogo} alt="Çevre Logo" />
           </div>
         </div>
       </Row>

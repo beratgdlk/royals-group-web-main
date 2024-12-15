@@ -154,7 +154,7 @@ function NavbarComp() {
                     </div>
                   </li>
                   <li>
-                    <Link to="/contact" className="nav-link">
+                    <Link to="/contact" className="nav-link text-black">
                       İletişim
                     </Link>
                   </li>
@@ -274,7 +274,7 @@ function NavbarComp() {
               </li>
               <li className="nav-item ">
                 <a
-                  href="/public/royalskatalog.pdf"
+                  href="/src/assets/royalskatalog.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="catalog nav-link text-black"

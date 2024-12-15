@@ -1,485 +1,344 @@
+import besteZKatliHavlu from "../images/beste-z-katlı-havlu.png";
+import gloraZKatliHavlu from "../images/glora-z-katlı-havlu.png";
+import miradaZKatlamaHavlu from "../images/mirada-z-katlama-havlu.png";
+import miradaHareketliHavlu from "../images/mirada-hareketli-havlu.png";
+import gloraHareketliHavlu from "../images/glora-hareketli-havlu.png"; // Düzeltildi
+import miradaDispenser from "../images/mirada-dispenser.jpg";
+import gloraJumboTuvalet from "../images/glora-jumbo-tuvalet.png";
+import miradaJumboTuvalet from "../images/mirada-jumbo-tuvalet.png";
+import gloraIctenCekme from "../images/glora-icten-cekme.png";
+import miradaIctenCekme from "../images/mirada-icten-cekme.png";
+import miradaIctenCekmeTuvalet from "../images/mirada-icten-cekme-tuvalet.png";
+import gloraMini from "../images/glora-mini.png";
+import miniIctenMirada from "../images/mini-icten-mirada.png";
+import miradaDesenliPecete from "../images/mirada-desenli-pecete.png";
+import miradaGarsonKatlama from "../images/mirada-garson-katlama.png";
+import miradaPecete from "../images/mirada-pecete.png";
+import setPecete from "../images/set-pecete.png";
+import yemekMasaOrtu from "../images/yemek-masa-örtü.png";
+import miradaMuayeneMasaOrtu from "../images/mirada-muayene-masa-örtü.png";
+
+// Kağıt ve Karton
+import strecFilm2 from "../images/strec-film-2.jpg";
+import strecFilm3 from "../images/strec-film-3.jpg";
+import gloraJelatinliKurdan from "../images/glora-jelatinli-kurdan.jpg";
+import gloraKagitliKurdan from "../images/glora-kagitli-krdan.jpg";
+import gloraTahtaKaristirici from "../images/glora-tahta-karistirici.webp";
+import jelatinliKurdan from "../images/jelatinl-krdan.jpg";
+import miradaAdanaSis from "../images/mirada-adana-sis.jpg";
+import tahtaKaristirici from "../images/tahta-karistirici.jpeg";
+import kartonBardak from "../images/karton-bardak.webp";
+import plastikBardak from "../images/plastik-bardak.jpeg";
+import hediyelikMetalize from "../images/hediyelik-metalize.jpg";
+import poset1 from "../images/poset1.jpeg";
+import posetler from "../images/posetler.jpeg";
+import gloraCopTorba1 from "../images/glora-cöp-torba1.jpeg";
+
+// Pipet Grubu
+import jelatinliKorukluPipet from "../images/jelatinli-körüklü-pipet.jpg";
+import kagitPipet from "../images/kagit-pipet.jpg";
+
+// Hijyenik Ürünler
+import galos from "../images/galos.jpeg";
+import kolluk from "../images/kolluk.png";
+import miradaSeffafEl from "../images/mirada-seffaf-el.jpg";
+import muayeneEldivenBeybi from "../images/muayene-eldiven-beybi.jpeg";
+import temizlikEldiven from "../images/temizlik-eldiven.jpg";
+
+// Diğer Ürünler
+import kartonCorbaKase from "../images/karton-corba-kase.jpeg";
+import klipsPlastik from "../images/klips-plastik.jpeg";
+import koliBandi from "../images/koli-bandı.jpeg";
+import lastik from "../images/lastik.jpeg";
+import paketTuz from "../images/paket-tuz.jpg";
+
+// Aparatlar
+import klozetKapakDispanser from "../images/klozet-kapak-dispanser.jpeg";
+import kopukluSabunDispanser from "../images/köpüklü-sabun-dispanser.jpeg";
+import peceteDispanser from "../images/pecete-dispanser.jpeg";
+import petBardakDispanser from "../images/pet-bardak-dispanser.jpeg";
+import ruloDispanser from "../images/rulo-dispanser.jpeg";
+import ruloStreclik from "../images/rulo-streçlik.jpeg";
+import siviSabunDis from "../images/sıvı-sabun-dis.jpeg";
+import wcKagitDispanser from "../images/wc-kagit-dispanser.jpeg";
+import zKatDispanser from "../images/z-kat-dispanser.png";
+
+// Plastik Ürünler
+import kasik from "../images/kasik.jpeg";
+import kilicKurdan from "../images/kilic-kürdan.jpeg";
+import pandaKasik from "../images/panda-kasik.jpeg";
+import salataKabi from "../images/salata-kabı.jpeg";
+import sosluk from "../images/sosluk.jpeg";
+import tabak from "../images/tabak.jpeg";
+
+// Kaplar
+import ikiGoz from "../images/iki-göz.jpeg";
+import kareTepsi from "../images/kare-tepsi.jpeg";
+import kremKaramel from "../images/krem-karamel.jpeg";
+import kunefe from "../images/künefe.jpeg";
+import ovalTepsi from "../images/oval-tepsi.jpeg";
+import supKase from "../images/sup-kase.jpeg";
+import ucGoz from "../images/üc-göz.jpeg";
+import kopuk5 from "../images/köpük-5.jpg";
+import kopukKap1 from "../images/köpük-kap1.jpeg";
+import kopukKap2 from "../images/köpük-kap2.jpeg";
+import kopukKap3 from "../images/köpük-kap3.jpeg";
+import kopukKap4 from "../images/köpük-kap4.jpeg";
+import sizdirmazKap1 from "../images/sızdırmaz-kap1.jpeg";
+import sizdirmazKap2 from "../images/sızdırmaz-kap2.jpeg";
+import sizdirmazKap3 from "../images/sızdırmaz-kap3.jpeg";
+import sizdirmazKap4 from "../images/sızdırmaz-kap4.jpeg";
+import sizdirmazKap5 from "../images/sızdırmaz-kap5.jpeg";
+
 export const Products = {
   temizlikKagitlari: [
     {
-      image:
-        "../../src/assets/images/temizlik-kagitlari/z-katlama-dispenser/beste-z-katlı-havlu.png",
+      image: besteZKatliHavlu,
       name: "Beste Z Katlı Havlu",
     },
     {
-      image:
-        "../../src/assets/images/temizlik-kagitlari/z-katlama-dispenser/glora-z-katlı-havlu.png",
+      image: gloraZKatliHavlu,
       name: "Glora Ekonomik Z Katlı Havlu",
     },
     {
-      image:
-        "../../src/assets/images/temizlik-kagitlari/z-katlama-dispenser/mirada-z-katlama-havlu.png",
+      image: miradaZKatlamaHavlu,
       name: "Mirada Z Katlı Havlu",
     },
     {
-      image:
-        "../../src/assets/images/temizlik-kagitlari/hareketli-havlu/beste-hareketli-havlu.png",
-      name: "Beste Hareketli Havlu",
-    },
-    {
-      image:
-        "../../src/assets/images/temizlik-kagitlari/hareketli-havlu/mirada-hareketli-havlu.png",
+      image: miradaHareketliHavlu,
       name: "Mirada Hareketli Havlu",
     },
     {
-      image:
-        "../../src/assets/images/temizlik-kagitlari/hareketli-havlu/glora-hareketli havlu.png",
+      image: gloraHareketliHavlu,
       name: "Glora Hareketli Havlu",
     },
     {
-      image:
-        "../../src/assets/images/temizlik-kagitlari/dispenser-pecete/beste-dispenser.jpg",
-      name: "Beste Dispanser Peçete",
-    },
-    {
-      image:
-        "../../src/assets/images/temizlik-kagitlari/dispenser-pecete/glora-dispenser.jpg",
-      name: "Glora Dispanser Peçete",
-    },
-    {
-      image:
-        "../../src/assets/images/temizlik-kagitlari/dispenser-pecete/mirada-dispenser.jpg",
+      image: miradaDispenser,
       name: "Mirada Dispanser Peçete",
     },
     {
-      image:
-        "../../src/assets/images/temizlik-kagitlari/mini-jumbo-tuvalet/glora-jumbo-tuvalet.png",
+      image: gloraJumboTuvalet,
       name: "Glora Jumbo Tuvalet Kagıdı",
     },
     {
-      image:
-        "../../src/assets/images/temizlik-kagitlari/mini-jumbo-tuvalet/mirada-jumbo-tuvalet.png",
+      image: miradaJumboTuvalet,
       name: "Mirada Jumbo Tuvalet Kagıdı",
     },
     {
-      image:
-        "../../src/assets/images/temizlik-kagitlari/icten-cekme-havlu/glora-icten-cekme.png",
+      image: gloraIctenCekme,
       name: "Glora İçten Çekme Havlu",
     },
     {
-      image:
-        "../../src/assets/images/temizlik-kagitlari/icten-cekme-havlu/mirada-icten-cekme.png",
+      image: miradaIctenCekme,
       name: "Mirada İçten Çekme Havlu",
     },
     {
-      image:
-        "../../src/assets/images/temizlik-kagitlari/icten-cekme-tuvalet/glora-icten-cekme.png",
-      name: "Glora İçten Çekme Tuvalet Kagıdı",
-    },
-    {
-      image:
-        "../../src/assets/images/temizlik-kagitlari/icten-cekme-tuvalet/mirada-icten-cekme-tuvalet.png",
+      image: miradaIctenCekmeTuvalet,
       name: "Mirada İçten Çekme Tuvalet Kagıdı",
     },
     {
-      image:
-        "../../src/assets/images/temizlik-kagitlari/mini-icten-cekme-tuvalet/glora-mini.png",
+      image: gloraMini,
       name: "Glora Mini İçten Çekme Tuvalet Kagıdı",
     },
     {
-      image:
-        "../../src/assets/images/temizlik-kagitlari/mini-icten-cekme-tuvalet/mini-icten-mirada.png ",
+      image: miniIctenMirada,
       name: "Mirada Mini İçten Çekme Tuvalet Kagıdı",
     },
     {
-      image:
-        "../../src/assets/images/temizlik-kagitlari/pecete/beste-pecete.png",
-      name: "Beste Ekonomik Kare Peçete",
-    },
-    {
-      image:
-        "../../src/assets/images/temizlik-kagitlari/pecete/mirada-desenli-pecete.png",
+      image: miradaDesenliPecete,
       name: "Mirada Desenli Peçete 30*30 Çift Kat",
     },
     {
-      image:
-        "../../src/assets/images/temizlik-kagitlari/pecete/mirada-garson-katlama.png",
+      image: miradaGarsonKatlama,
       name: "Mirada 1/8 Garson Katlama Peçete",
     },
     {
-      image:
-        "../../src/assets/images/temizlik-kagitlari/pecete/mirada-pecete.png",
+      image: miradaPecete,
       name: "Mirada Peçete 30*30",
     },
     {
-      image: "../../src/assets/images/temizlik-kagitlari/pecete/set-pecete.png",
+      image: setPecete,
       name: "Mirada Desenli Peçete",
     },
     {
-      image:
-        "../../src/assets/images/temizlik-kagitlari/masa-örtüleri/yemek-masa-örtü.png",
+      image: yemekMasaOrtu,
       name: "Mirada Yemek Masa Örtüsü",
     },
     {
-      image:
-        "../../src/assets/images/temizlik-kagitlari/masa-örtüleri/mirada-muayene-masa-örtü.png",
+      image: miradaMuayeneMasaOrtu,
       name: "Mirada Muayene Masa Örtüsü",
     },
   ],
   kagıtVeKarton: [
-    // -----------------------------------------
-    // Streç Grubu -------------------------------
     {
-      image:
-        "../../src/assets/images/kagit-karton-ürünler/strec-grubu/al-folyo.jpg",
-      name: "Alüminyum Folyo",
-    },
-    {
-      image:
-        "../../src/assets/images/kagit-karton-ürünler/strec-grubu/strec-film-2.jpg",
+      image: strecFilm2,
       name: "Glora Kutulu Streç",
     },
     {
-      image:
-        "../../src/assets/images/kagit-karton-ürünler/strec-grubu/strec-film-3.jpg",
+      image: strecFilm3,
       name: "Glora Kutulu Streç",
     },
-    // -----------------------------------------
-    // Ahşap Ürünler -----------------------------
     {
-      image:
-        "../../src/assets/images/kagit-karton-ürünler/ahsap-ürünler/glora-jelatinli-kurdan.jpg",
+      image: gloraJelatinliKurdan,
       name: "Glora Jelatinli Kürdan",
     },
     {
-      image:
-        "../../src/assets/images/kagit-karton-ürünler/ahsap-ürünler/glora-kagitli-krdan.jpg",
+      image: gloraKagitliKurdan,
       name: "Glora Kagıtlı Kürdan",
     },
     {
-      image:
-        "../../src/assets/images/kagit-karton-ürünler/ahsap-ürünler/glora-tahta-karistirici.webp",
+      image: gloraTahtaKaristirici,
       name: "Glora Tahta Karıştırıcı",
     },
     {
-      image:
-        "../../src/assets/images/kagit-karton-ürünler/ahsap-ürünler/jelatinl-krdan.jpg",
+      image: jelatinliKurdan,
       name: "Mirada Jelatinli Kürdan",
     },
     {
-      image:
-        "../../src/assets/images/kagit-karton-ürünler/ahsap-ürünler/mirada-adana-sis.jpg",
+      image: miradaAdanaSis,
       name: "Mirada Adana Şiş",
     },
     {
-      image:
-        "../../src/assets/images/kagit-karton-ürünler/ahsap-ürünler/tahta-karistirici.jpeg",
+      image: tahtaKaristirici,
       name: "Mirada Tahta Karıştırıcı",
     },
-    // -----------------------------------------
-    // Bardak Grubu -----------------------------
     {
-      image:
-        "../../src/assets/images/kagit-karton-ürünler/bardak-grubu/karton-bardak.webp",
+      image: kartonBardak,
       name: "Karton Bardak",
     },
     {
-      image:
-        "../../src/assets/images/kagit-karton-ürünler/bardak-grubu/plastik-bardak.jpeg",
+      image: plastikBardak,
       name: "Plastik Bardak",
     },
-    // -----------------------------------------
-    // Hediyelik Metalize -----------------------------
     {
-      image: "../../src/assets/images/diger-ürünler/hediyelik-metalize.jpg",
+      image: hediyelikMetalize,
       name: "Hediyelik Metalize",
     },
     {
-      image: "../../src/assets/images/diger-ürünler/poset1.jpeg",
+      image: poset1,
       name: "Hediyelik Poşet",
     },
     {
-      image: "../../src/assets/images/diger-ürünler/posetler.jpeg",
+      image: posetler,
       name: "Hediyelik Poşetler",
     },
-    // Çöp Torbaları ---------------------------
     {
-      image:
-        "../../src/assets/images/kagit-karton-ürünler/cöp-torbalari/glora-cöp-torba.png",
-      name: "Jumbo Boy Çöp Torbası",
-    },
-    {
-      image:
-        "../../src/assets/images/kagit-karton-ürünler/cöp-torbalari/glora-end-boy.png",
-      name: "Jumbo Ext End Boy Çöp Torbası",
-    },
-    {
-      image:
-        "../../src/assets/images/kagit-karton-ürünler/cöp-torbalari/glora-cöp-torba1.jpeg",
+      image: gloraCopTorba1,
       name: "Hantal End Boy Çöp Torbası",
     },
   ],
   pipetGrubu: [
     {
-      image: "../../src/assets/images/pipet-grubu/burger-pipet.jpg",
-      name: "Burger Pipet",
-    },
-    {
-      image: "../../src/assets/images/pipet-grubu/fosforlu-pipet.jpg",
-      name: "Fosforlu Pipet",
-    },
-    {
-      image: "../../src/assets/images/pipet-grubu/jelatinli-körüklü-pipet.jpg",
+      image: jelatinliKorukluPipet,
       name: "Jelatinli Körüklü Pilet",
     },
     {
-      image: "../../src/assets/images/pipet-grubu/kagit-pipet.jpg",
+      image: kagitPipet,
       name: "Kagıt Pilet",
     },
   ],
   hijyenikÜrünler: [
     {
-      image: "../../src/assets/images/hijyenik-ürünler/galos.jpeg",
+      image: galos,
       name: "Galoş",
     },
     {
-      image: "../../src/assets/images/hijyenik-ürünler/kolluk.png",
+      image: kolluk,
       name: "Kolluk",
     },
     {
-      image: "../../src/assets/images/hijyenik-ürünler/mirada-seffaf-el.jpg",
+      image: miradaSeffafEl,
       name: "Mirada Şeffaf Eldiven",
     },
     {
-      image:
-        "../../src/assets/images/hijyenik-ürünler/muayene-eldiven-beybi.jpeg",
+      image: muayeneEldivenBeybi,
       name: "Beybi Muayene Eldiveni",
     },
     {
-      image: "../../src/assets/images/hijyenik-ürünler/temizlik-eldiven.jpg",
+      image: temizlikEldiven,
       name: "Temizlik Eldiveni",
     },
   ],
   digerÜrünler: [
     {
-      image: "/src/assets/images/diger-ürünler/ambalaj-ipi.jpeg",
-      name: "Ambalaj İpi",
-    },
-    {
-      image: "/src/assets/images/diger-ürünler/buzdolabı-poseti.jpeg",
-      name: "Buzdolabı Poşeti",
-    },
-    {
-      image: "/src/assets/images/diger-ürünler/deterjan.png",
-      name: "Deterjan",
-    },
-    {
-      image: "/src/assets/images/diger-ürünler/hediyelik-metalize.jpg",
-      name: "Hediyelik Metalize",
-    },
-    {
-      image: "/src/assets/images/diger-ürünler/karton-corba-kase.jpeg",
+      image: kartonCorbaKase,
       name: "Karton Çorba Kasesi",
     },
     {
-      image: "/src/assets/images/diger-ürünler/klips-plastik.jpeg",
+      image: klipsPlastik,
       name: "Klips Plastik",
     },
-
     {
-      image: "/src/assets/images/diger-ürünler/koli-bandı.jpeg",
+      image: koliBandi,
       name: "Koli Bandı",
     },
     {
-      image: "/src/assets/images/diger-ürünler/lastik.jpeg",
+      image: lastik,
       name: "Lastik",
     },
     {
-      image: "/src/assets/images/diger-ürünler/paket-tuz.jpg",
+      image: paketTuz,
       name: "Paket Tuz",
     },
     {
-      image: "/src/assets/images/diger-ürünler/poset1.jpeg",
+      image: poset1,
       name: "Poşet",
     },
     {
-      image: "/src/assets/images/diger-ürünler/posetler.jpeg",
+      image: posetler,
       name: "Poşetler",
     },
   ],
   aparatlar: [
     {
-      image: "/src/assets/images/aparatlar/klozet-kapak-dispanser.jpeg",
+      image: klozetKapakDispanser,
       name: "Klozet Kapagı Dispenseri",
     },
     {
-      image: "/src/assets/images/aparatlar/köpüklü-sabun-dispanser.jpeg",
+      image: kopukluSabunDispanser,
       name: "Köpüklü Sabun Dispenseri",
     },
     {
-      image: "/src/assets/images/aparatlar/pecete-dispanser.jpeg",
+      image: peceteDispanser,
       name: "Peçete Dispenseri",
     },
     {
-      image: "/src/assets/images/aparatlar/pet-bardak-dispanser.jpeg",
+      image: petBardakDispanser,
       name: "Pet Bardak Dispenseri",
     },
     {
-      image: "/src/assets/images/aparatlar/rulo-dispanser.jpeg",
+      image: ruloDispanser,
       name: "Rulo Dispenseri",
     },
     {
-      image: "/src/assets/images/aparatlar/rulo-streçlik.jpeg",
+      image: ruloStreclik,
       name: "Rulo Streçlik Dispenseri",
     },
     {
-      image: "/src/assets/images/aparatlar/sıvı-sabun-dis.jpeg",
+      image: siviSabunDis,
       name: "Sıvı Sabun Dispenseri",
     },
     {
-      image: "/src/assets/images/aparatlar/wc-kagit-dispanser.jpeg",
+      image: wcKagitDispanser,
       name: "Wc Kagıt Dispenseri",
     },
     {
-      image: "/src/assets/images/aparatlar/z-kat-dispanser.png",
+      image: zKatDispanser,
       name: "Z Kat Kagıt Havlu Dispenseri",
     },
   ],
   plastikÜrünler: [
     {
-      image:
-        "/src/assets/images/plastik-ürünler/ekolojik-tabaklar/eko-kase.png",
-      name: "Ekonomik Kase",
-    },
-    {
-      image:
-        "/src/assets/images/plastik-ürünler/ekolojik-tabaklar/eko-tabak.png",
-      name: "Ekonomik Tabak",
-    },
-    {
-      image: "/src/assets/images/plastik-ürünler/ekolojik-tabaklar/indir.jpeg",
-      name: "Ekonomik İnce Tabak",
-    },
-    {
-      image: "/src/assets/images/plastik-ürünler/bicak.jpeg",
-      name: "Plastik Bıcak",
-    },
-    {
-      image: "/src/assets/images/plastik-ürünler/catal.jpeg",
-      name: "Plastik Çatal",
-    },
-    {
-      image: "/src/assets/images/plastik-ürünler/cips-catali.jpeg",
-      name: "Cips Çatalı",
-    },
-    {
-      image: "/src/assets/images/plastik-ürünler/karistirici.jpeg",
-      name: "Karıştırıcı",
-    },
-    {
-      image: "/src/assets/images/plastik-ürünler/kase.jpeg",
-      name: "Kase",
-    },
-    {
-      image: "/src/assets/images/plastik-ürünler/kasik.jpeg",
+      image: kasik,
       name: "Kaşık",
     },
     {
-      image: "/src/assets/images/plastik-ürünler/kilic-kürdan.jpeg",
+      image: kilicKurdan,
       name: "Kılıç Kürdan",
     },
     {
-      image: "/src/assets/images/plastik-ürünler/panda-kasik.jpeg",
+      image: pandaKasik,
       name: "Panda Kaşık",
     },
     {
-      image: "/src/assets/images/plastik-ürünler/salata-kabı.jpeg",
-      name: "Salata Kabı",
-    },
-    {
-      image: "/src/assets/images/plastik-ürünler/sosluk.jpeg",
-      name: "Sosluk",
-    },
-    {
-      image: "/src/assets/images/plastik-ürünler/tabak.jpeg",
-      name: "Tabak",
-    },
-  ],
-  kaplar: [
-    {
-      image: "/src/assets/images/kaplar/alüminyum-kaplar/250gr.jpeg",
-      name: "Alimünyum Kap 250GR",
-    },
-    {
-      image: "/src/assets/images/kaplar/alüminyum-kaplar/500gr.jpeg",
-      name: "Alimünyum Kap 500GR",
-    },
-
-    {
-      image: "/src/assets/images/kaplar/alüminyum-kaplar/alüminyum-sütlac.jpeg",
-      name: "Alimünyum Sütlaç Kapı",
-    },
-    {
-      image: "/src/assets/images/kaplar/alüminyum-kaplar/iki-göz.jpeg",
-      name: "Alimünyum Kap 2 Kısımlı",
-    },
-    {
-      image: "/src/assets/images/kaplar/alüminyum-kaplar/kare-tepsi.jpeg",
-      name: "Kare Tepsi",
-    },
-    {
-      image: "/src/assets/images/kaplar/alüminyum-kaplar/krem-karamel.jpeg",
-      name: "Krem Karamel Kap",
-    },
-    {
-      image: "/src/assets/images/kaplar/alüminyum-kaplar/künefe.jpeg",
-      name: "Künefe Kap",
-    },
-    {
-      image: "/src/assets/images/kaplar/alüminyum-kaplar/oval-tepsi.jpeg",
-      name: "Oval Tepsi",
-    },
-    {
-      image: "/src/assets/images/kaplar/alüminyum-kaplar/sup-kase.jpeg",
-      name: "Sup Kase",
-    },
-    {
-      image: "/src/assets/images/kaplar/alüminyum-kaplar/üc-göz.jpeg",
-      name: "Alimünyum Kap 3 Kısımlı",
-    },
-    {
-      image: "/src/assets/images/kaplar/köpük-kaplar/köpük-5.jpg",
-      name: "Turuncu Köpük Kap",
-    },
-    {
-      image: "/src/assets/images/kaplar/köpük-kaplar/köpük-kap1.jpeg",
-      name: "Köpük Kab 1",
-    },
-    {
-      image: "/src/assets/images/kaplar/köpük-kaplar/köpük-kap2.jpeg",
-      name: "Köpük Kap 2",
-    },
-    {
-      image: "/src/assets/images/kaplar/köpük-kaplar/köpük-kap3.jpeg",
-      name: "Köpük Kap 3",
-    },
-    {
-      image: "/src/assets/images/kaplar/köpük-kaplar/köpük-kap4.jpeg",
-      name: "Köpük Kap 4",
-    },
-    {
-      image: "/src/assets/images/kaplar/sızdırmaz-kaplar/sızdırmaz-kap1.jpeg",
-      name: "Sızdırmaz Kap 1",
-    },
-    {
-      image: "/src/assets/images/kaplar/sızdırmaz-kaplar/sızdırmaz-kap2.jpeg",
-      name: "Sızdırmaz Kap 2",
-    },
-    {
-      image: "/src/assets/images/kaplar/sızdırmaz-kaplar/sızdırmaz-kap3.jpeg",
-      name: "Sızdırmaz Kap 3",
-    },
-    {
-      image: "/src/assets/images/kaplar/sızdırmaz-kaplar/sızdırmaz-kap4.jpeg",
-      name: "Sızdırmaz Kap 4",
-    },
-    {
-      image: "/src/assets/images/kaplar/sızdırmaz-kaplar/sızdırmaz-kap5.jpeg",
-      name: "Sızdırmaz Kap 5",
-    },
-  ],
-};
+      image: salataK

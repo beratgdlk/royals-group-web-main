@@ -1,34 +1,23 @@
+import RsgBannerFotoOne from "../../images/rsg-banner1.png";
+import RsgBannerFotoTwo from "../../images/rsg-banner2.png";
+import RsgBannerFotoThree from "../../images/rsg-banner3.png";
+import RsgBannerFotoFour from "../../images/rsg-banner4.png";
+
 function HeroSection() {
   return (
-    <div id="carouselExample" className="carousel slide">
+    <div id="carouselExample" className="carousel slide slider-container">
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <img
-            src="/src/assets/images/homepage/rsg-banner1.png"
-            className="d-block w-100 slide-image"
-            alt="..."
-          />
+          <img src={RsgBannerFotoOne} className="slider-image" alt="..." />
         </div>
         <div className="carousel-item">
-          <img
-            src="/src/assets/images/homepage/rsg-banner2.png"
-            className="d-block w-100 slide-image"
-            alt="..."
-          />
+          <img src={RsgBannerFotoTwo} className="slider-image" alt="..." />
         </div>
         <div className="carousel-item">
-          <img
-            src="/src/assets/images/homepage/rsg-banner3.png"
-            className="d-block w-100 slide-image"
-            alt="..."
-          />
+          <img src={RsgBannerFotoThree} className="slider-image" alt="..." />
         </div>
         <div className="carousel-item">
-          <img
-            src="/src/assets/images/homepage/rsg-banner4.png"
-            className="d-block w-100 slide-image"
-            alt="..."
-          />
+          <img src={RsgBannerFotoFour} className="slider-image" alt="..." />
         </div>
       </div>
       <button
