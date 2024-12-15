@@ -1,8 +1,16 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/',
+  base: './', // Bunu ./ olarak değiştirdik
+  build: {
+    assetsDir: 'assets', // Asset'lerin build'de nereye konumlanacağını belirtiyoruz
+    outDir: 'dist', // Build çıktı klasörü
+    rollupOptions: {
+      output: {
+        assetFileNames: 'assets/[name].[ext]'
+      }
+    }
+  }
 })
