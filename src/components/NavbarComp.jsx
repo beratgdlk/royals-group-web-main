@@ -274,7 +274,7 @@ function NavbarComp() {
               </li>
               <li className="nav-item ">
                 <a
-                  href="/public/royalskatalog.pdf"
+                  href="/src/assets/royalskatalog.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="catalog nav-link text-black"

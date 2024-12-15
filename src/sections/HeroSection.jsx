@@ -4,28 +4,28 @@ function HeroSection() {
       <div className="carousel-inner">
         <div className="carousel-item active">
           <img
-            src="/src/assets/images/homepage/rsg-banner1.png"
+            src="../assets/rsg-banner1.png"
             className="slider-image"
             alt="..."
           />
         </div>
         <div className="carousel-item">
           <img
-            src="/src/assets/images/homepage/rsg-banner2.png"
+            src="../src/assets/rsg-banner2.png"
             className="slider-image"
             alt="..."
           />
         </div>
         <div className="carousel-item">
           <img
-            src="/src/assets/images/homepage/rsg-banner3.png"
+            src="../src/assets/rsg-banner3.png"
             className="slider-image"
             alt="..."
           />
         </div>
         <div className="carousel-item">
           <img
-            src="/src/assets/images/homepage/rsg-banner4.png"
+            src="../src/assets/rsg-banner4.png"
             className="slider-image"
             alt="..."
           />

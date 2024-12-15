@@ -10,14 +10,14 @@ import {
   CardText,
 } from "react-bootstrap";
 
-import temizlikKagıtFoto from "../assets/images/banners-images/temizlik-kagitlari.png";
-import digerÜrünlerFoto from "../assets/images/banners-images/diger-ürünler.png";
-import pipetlerFoto from "../assets/images/banners-images/pipetler.png";
-import hijyenikÜrünlerFoto from "../assets/images/banners-images/hijyenik-ürünler.png";
-import kagıtVeKartonlarFoto from "../assets/images/banners-images/kagit-ve-karton.png";
-import kaplarFoto from "../assets/images/banners-images/kaplar.png";
-import plastikÜrünlerFoto from "../assets/images/banners-images/plastik-ürünler.png";
-import aparatlarFoto from "../assets/images/banners-images/aparatlar.png";
+import temizlikKagıtFoto from "../src/assets/temizlik-kagitlari.png";
+import digerÜrünlerFoto from "../src/assets/diger-ürünler.png";
+import pipetlerFoto from "../src/assets/pipetler.png";
+import hijyenikÜrünlerFoto from "../src/assets/hijyenik-ürünler.png";
+import kagıtVeKartonlarFoto from "../src/assets/kagit-ve-karton.png";
+import kaplarFoto from "../src/assets/kaplar.png";
+import plastikÜrünlerFoto from "../src/assets/plastik-ürünler.png";
+import aparatlarFoto from "../src/assets/aparatlar.png";
 
 function Products() {
   const { categories } = useParams();
