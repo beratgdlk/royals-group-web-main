@@ -154,7 +154,7 @@ function NavbarComp() {
                     </div>
                   </li>
                   <li>
-                    <Link to="/contact" className="nav-link">
+                    <Link to="/contact" className="nav-link text-black">
                       İletişim
                     </Link>
                   </li>
