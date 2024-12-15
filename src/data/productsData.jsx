@@ -1,95 +1,94 @@
-// Temizlik Kağıtları
-import besteZKatliHavlu from "../assets/beste-z-katlı-havlu.png";
-import gloraZKatliHavlu from "../assets/glora-z-katlı-havlu.png";
-import miradaZKatlamaHavlu from "../assets/mirada-z-katlama-havlu.png";
-import miradaHareketliHavlu from "../assets/mirada-hareketli-havlu.png";
-import gloraHareketliHavlu from "../assets/glora-hareketli havlu.png";
-import miradaDispenser from "../assets/mirada-dispenser.jpg";
-import gloraJumboTuvalet from "../assets/glora-jumbo-tuvalet.png";
-import miradaJumboTuvalet from "../assets/mirada-jumbo-tuvalet.png";
-import gloraIctenCekme from "../assets/glora-icten-cekme.png";
-import miradaIctenCekme from "../assets/mirada-icten-cekme.png";
-import miradaIctenCekmeTuvalet from "../assets/mirada-icten-cekme-tuvalet.png";
-import gloraMini from "../assets/glora-mini.png";
-import miniIctenMirada from "../assets/mini-icten-mirada.png";
-import miradaDesenliPecete from "../assets/mirada-desenli-pecete.png";
-import miradaGarsonKatlama from "../assets/mirada-garson-katlama.png";
-import miradaPecete from "../assets/mirada-pecete.png";
-import setPecete from "../assets/set-pecete.png";
-import yemekMasaOrtu from "../assets/yemek-masa-örtü.png";
-import miradaMuayeneMasaOrtu from "../assets/mirada-muayene-masa-örtü.png";
+import besteZKatliHavlu from "../images/beste-z-katlı-havlu.png";
+import gloraZKatliHavlu from "../images/glora-z-katlı-havlu.png";
+import miradaZKatlamaHavlu from "../images/mirada-z-katlama-havlu.png";
+import miradaHareketliHavlu from "../images/mirada-hareketli-havlu.png";
+import gloraHareketliHavlu from "../images/glora-hareketli-havlu.png"; // Düzeltildi
+import miradaDispenser from "../images/mirada-dispenser.jpg";
+import gloraJumboTuvalet from "../images/glora-jumbo-tuvalet.png";
+import miradaJumboTuvalet from "../images/mirada-jumbo-tuvalet.png";
+import gloraIctenCekme from "../images/glora-icten-cekme.png";
+import miradaIctenCekme from "../images/mirada-icten-cekme.png";
+import miradaIctenCekmeTuvalet from "../images/mirada-icten-cekme-tuvalet.png";
+import gloraMini from "../images/glora-mini.png";
+import miniIctenMirada from "../images/mini-icten-mirada.png";
+import miradaDesenliPecete from "../images/mirada-desenli-pecete.png";
+import miradaGarsonKatlama from "../images/mirada-garson-katlama.png";
+import miradaPecete from "../images/mirada-pecete.png";
+import setPecete from "../images/set-pecete.png";
+import yemekMasaOrtu from "../images/yemek-masa-örtü.png";
+import miradaMuayeneMasaOrtu from "../images/mirada-muayene-masa-örtü.png";
 
 // Kağıt ve Karton
-import strecFilm2 from "../assets/strec-film-2.jpg";
-import strecFilm3 from "../assets/strec-film-3.jpg";
-import gloraJelatinliKurdan from "../assets/glora-jelatinli-kurdan.jpg";
-import gloraKagitliKurdan from "../assets/glora-kagitli-krdan.jpg";
-import gloraTahtaKaristirici from "../assets/glora-tahta-karistirici.webp";
-import jelatinliKurdan from "../assets/jelatinl-krdan.jpg";
-import miradaAdanaSis from "../assets/mirada-adana-sis.jpg";
-import tahtaKaristirici from "../assets/tahta-karistirici.jpeg";
-import kartonBardak from "../assets/karton-bardak.webp";
-import plastikBardak from "../assets/plastik-bardak.jpeg";
-import hediyelikMetalize from "../assets/hediyelik-metalize.jpg";
-import poset1 from "../assets/poset1.jpeg";
-import posetler from "../assets/posetler.jpeg";
-import gloraCopTorba1 from "../assets/glora-cöp-torba1.jpeg";
+import strecFilm2 from "../images/strec-film-2.jpg";
+import strecFilm3 from "../images/strec-film-3.jpg";
+import gloraJelatinliKurdan from "../images/glora-jelatinli-kurdan.jpg";
+import gloraKagitliKurdan from "../images/glora-kagitli-krdan.jpg";
+import gloraTahtaKaristirici from "../images/glora-tahta-karistirici.webp";
+import jelatinliKurdan from "../images/jelatinl-krdan.jpg";
+import miradaAdanaSis from "../images/mirada-adana-sis.jpg";
+import tahtaKaristirici from "../images/tahta-karistirici.jpeg";
+import kartonBardak from "../images/karton-bardak.webp";
+import plastikBardak from "../images/plastik-bardak.jpeg";
+import hediyelikMetalize from "../images/hediyelik-metalize.jpg";
+import poset1 from "../images/poset1.jpeg";
+import posetler from "../images/posetler.jpeg";
+import gloraCopTorba1 from "../images/glora-cöp-torba1.jpeg";
 
 // Pipet Grubu
-import jelatinliKorukluPipet from "../assets/jelatinli-körüklü-pipet.jpg";
-import kagitPipet from "../assets/kagit-pipet.jpg";
+import jelatinliKorukluPipet from "../images/jelatinli-körüklü-pipet.jpg";
+import kagitPipet from "../images/kagit-pipet.jpg";
 
 // Hijyenik Ürünler
-import galos from "../assets/galos.jpeg";
-import kolluk from "../assets/kolluk.png";
-import miradaSeffafEl from "../assets/mirada-seffaf-el.jpg";
-import muayeneEldivenBeybi from "../assets/muayene-eldiven-beybi.jpeg";
-import temizlikEldiven from "../assets/temizlik-eldiven.jpg";
+import galos from "../images/galos.jpeg";
+import kolluk from "../images/kolluk.png";
+import miradaSeffafEl from "../images/mirada-seffaf-el.jpg";
+import muayeneEldivenBeybi from "../images/muayene-eldiven-beybi.jpeg";
+import temizlikEldiven from "../images/temizlik-eldiven.jpg";
 
 // Diğer Ürünler
-import kartonCorbaKase from "../assets/karton-corba-kase.jpeg";
-import klipsPlastik from "../assets/klips-plastik.jpeg";
-import koliBandi from "../assets/koli-bandı.jpeg";
-import lastik from "../assets/lastik.jpeg";
-import paketTuz from "../assets/paket-tuz.jpg";
+import kartonCorbaKase from "../images/karton-corba-kase.jpeg";
+import klipsPlastik from "../images/klips-plastik.jpeg";
+import koliBandi from "../images/koli-bandı.jpeg";
+import lastik from "../images/lastik.jpeg";
+import paketTuz from "../images/paket-tuz.jpg";
 
 // Aparatlar
-import klozetKapakDispanser from "../assets/klozet-kapak-dispanser.jpeg";
-import kopukluSabunDispanser from "../assets/köpüklü-sabun-dispanser.jpeg";
-import peceteDispanser from "../assets/pecete-dispanser.jpeg";
-import petBardakDispanser from "../assets/pet-bardak-dispanser.jpeg";
-import ruloDispanser from "../assets/rulo-dispanser.jpeg";
-import ruloStreclik from "../assets/rulo-streçlik.jpeg";
-import siviSabunDis from "../assets/sıvı-sabun-dis.jpeg";
-import wcKagitDispanser from "../assets/wc-kagit-dispanser.jpeg";
-import zKatDispanser from "../assets/z-kat-dispanser.png";
+import klozetKapakDispanser from "../images/klozet-kapak-dispanser.jpeg";
+import kopukluSabunDispanser from "../images/köpüklü-sabun-dispanser.jpeg";
+import peceteDispanser from "../images/pecete-dispanser.jpeg";
+import petBardakDispanser from "../images/pet-bardak-dispanser.jpeg";
+import ruloDispanser from "../images/rulo-dispanser.jpeg";
+import ruloStreclik from "../images/rulo-streçlik.jpeg";
+import siviSabunDis from "../images/sıvı-sabun-dis.jpeg";
+import wcKagitDispanser from "../images/wc-kagit-dispanser.jpeg";
+import zKatDispanser from "../images/z-kat-dispanser.png";
 
 // Plastik Ürünler
-import kasik from "../assets/kasik.jpeg";
-import kilicKurdan from "../assets/kilic-kürdan.jpeg";
-import pandaKasik from "../assets/panda-kasik.jpeg";
-import salataKabi from "../assets/salata-kabı.jpeg";
-import sosluk from "../assets/sosluk.jpeg";
-import tabak from "../assets/tabak.jpeg";
+import kasik from "../images/kasik.jpeg";
+import kilicKurdan from "../images/kilic-kürdan.jpeg";
+import pandaKasik from "../images/panda-kasik.jpeg";
+import salataKabi from "../images/salata-kabı.jpeg";
+import sosluk from "../images/sosluk.jpeg";
+import tabak from "../images/tabak.jpeg";
 
 // Kaplar
-import ikiGoz from "../assets/iki-göz.jpeg";
-import kareTepsi from "../assets/kare-tepsi.jpeg";
-import kremKaramel from "../assets/krem-karamel.jpeg";
-import kunefe from "../assets/künefe.jpeg";
-import ovalTepsi from "../assets/oval-tepsi.jpeg";
-import supKase from "../assets/sup-kase.jpeg";
-import ucGoz from "../assets/üc-göz.jpeg";
-import kopuk5 from "../assets/köpük-5.jpg";
-import kopukKap1 from "../assets/köpük-kap1.jpeg";
-import kopukKap2 from "../assets/köpük-kap2.jpeg";
-import kopukKap3 from "../assets/köpük-kap3.jpeg";
-import kopukKap4 from "../assets/köpük-kap4.jpeg";
-import sizdirmazKap1 from "../assets/sızdırmaz-kap1.jpeg";
-import sizdirmazKap2 from "../assets/sızdırmaz-kap2.jpeg";
-import sizdirmazKap3 from "../assets/sızdırmaz-kap3.jpeg";
-import sizdirmazKap4 from "../assets/sızdırmaz-kap4.jpeg";
-import sizdirmazKap5 from "../assets/sızdırmaz-kap5.jpeg";
+import ikiGoz from "../images/iki-göz.jpeg";
+import kareTepsi from "../images/kare-tepsi.jpeg";
+import kremKaramel from "../images/krem-karamel.jpeg";
+import kunefe from "../images/künefe.jpeg";
+import ovalTepsi from "../images/oval-tepsi.jpeg";
+import supKase from "../images/sup-kase.jpeg";
+import ucGoz from "../images/üc-göz.jpeg";
+import kopuk5 from "../images/köpük-5.jpg";
+import kopukKap1 from "../images/köpük-kap1.jpeg";
+import kopukKap2 from "../images/köpük-kap2.jpeg";
+import kopukKap3 from "../images/köpük-kap3.jpeg";
+import kopukKap4 from "../images/köpük-kap4.jpeg";
+import sizdirmazKap1 from "../images/sızdırmaz-kap1.jpeg";
+import sizdirmazKap2 from "../images/sızdırmaz-kap2.jpeg";
+import sizdirmazKap3 from "../images/sızdırmaz-kap3.jpeg";
+import sizdirmazKap4 from "../images/sızdırmaz-kap4.jpeg";
+import sizdirmazKap5 from "../images/sızdırmaz-kap5.jpeg";
 
 export const Products = {
   temizlikKagitlari: [
@@ -342,86 +341,4 @@ export const Products = {
       name: "Panda Kaşık",
     },
     {
-      image: salataKabi,
-      name: "Salata Kabı",
-    },
-    {
-      image: sosluk,
-      name: "Sosluk",
-    },
-    {
-      image: tabak,
-      name: "Tabak",
-    },
-  ],
-  kaplar: [
-    {
-      image: ikiGoz,
-      name: "Alimünyum Kap 2 Kısımlı",
-    },
-    {
-      image: kareTepsi,
-      name: "Kare Tepsi",
-    },
-    {
-      image: kremKaramel,
-      name: "Krem Karamel Kap",
-    },
-    {
-      image: kunefe,
-      name: "Künefe Kap",
-    },
-    {
-      image: ovalTepsi,
-      name: "Oval Tepsi",
-    },
-    {
-      image: supKase,
-      name: "Sup Kase",
-    },
-    {
-      image: ucGoz,
-      name: "Alimünyum Kap 3 Kısımlı",
-    },
-    {
-      image: kopuk5,
-      name: "Turuncu Köpük Kap",
-    },
-    {
-      image: kopukKap1,
-      name: "Köpük Kab 1",
-    },
-    {
-      image: kopukKap2,
-      name: "Köpük Kap 2",
-    },
-    {
-      image: kopukKap3,
-      name: "Köpük Kap 3",
-    },
-    {
-      image: kopukKap4,
-      name: "Köpük Kap 4",
-    },
-    {
-      image: sizdirmazKap1,
-      name: "Sızdırmaz Kap 1",
-    },
-    {
-      image: sizdirmazKap2,
-      name: "Sızdırmaz Kap 2",
-    },
-    {
-      image: sizdirmazKap3,
-      name: "Sızdırmaz Kap 3",
-    },
-    {
-      image: sizdirmazKap4,
-      name: "Sızdırmaz Kap 4",
-    },
-    {
-      image: sizdirmazKap5,
-      name: "Sızdırmaz Kap 5",
-    },
-  ],
-};
+      image: salataK

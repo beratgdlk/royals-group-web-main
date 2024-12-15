@@ -1,7 +1,7 @@
-import RsgBannerFotoOne from "../assets/rsg-banner1.png";
-import RsgBannerFotoTwo from "../assets/rsg-banner2.png";
-import RsgBannerFotoThree from "../assets/rsg-banner3.png";
-import RsgBannerFotoFour from "../assets/rsg-banner4.png";
+import RsgBannerFotoOne from "../../images/rsg-banner1.png";
+import RsgBannerFotoTwo from "../../images/rsg-banner2.png";
+import RsgBannerFotoThree from "../../images/rsg-banner3.png";
+import RsgBannerFotoFour from "../../images/rsg-banner4.png";
 
 function HeroSection() {
   return (

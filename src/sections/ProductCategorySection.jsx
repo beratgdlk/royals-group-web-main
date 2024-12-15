@@ -13,56 +13,56 @@ function ProductCategorySection() {
           <h4>Temizlik Kagıtları</h4>
           <img
             className="img-fluid"
-            src="../src/assets/glora-dispenser.jpg"
+            src="../../images/glora-dispenser.jpg"
           />
         </Col>
         <Col className="col-lg-3 col-sm-6 col-md-6 d-flex flex-column align-items-center">
           <h4>Ahşap Ürünler</h4>
           <img
             className="img-fluid "
-            src="../src/assets/mirada-adana-sis.jpg"
+            src="../../images/mirada-adana-sis.jpg"
           />
         </Col>
         <Col className="col-lg-3 col-sm-6 col-md-6 d-flex flex-column align-items-center">
           <h4>Hijyenik Ürünler</h4>
           <img
             className="img-fluid"
-            src="../src/assets/temizlik-eldiven.jpg"
+            src="../../images/temizlik-eldiven.jpg"
           />
         </Col>
         <Col className="col-lg-3 col-sm-6 col-md-6 d-flex flex-column align-items-center">
           <h4>Plastik Ürünler</h4>
           <img
             className="img-fluid"
-            src="../src/assets/bicak.jpeg"
+            src="../../images/bicak.jpeg"
           />
         </Col>
         <Col className="col-lg-3 col-sm-6 col-md-6 d-flex flex-column align-items-center">
           <h4>Çöp Torbaları</h4>
           <img
             className="img-fluid"
-            src="../src/assets/glora-cöp-torba1.jpeg"
+            src="../../images/glora-cöp-torba1.jpeg"
           />
         </Col>
         <Col className="col-lg-3 col-sm-6 col-md-6 d-flex flex-column align-items-center">
           <h4>Kağıt Ve Karton</h4>
           <img
             className="img-fluid"
-            src="../src/assets/karton-bardak.webp"
+            src="../../images/karton-bardak.webp"
           />
         </Col>
         <Col className="col-lg-3 col-sm-6 col-md-6 d-flex flex-column align-items-center">
           <h4>Streç Grubu</h4>
           <img
             className="img-fluid"
-            src="../src/assets/strec-film-3.jpg"
+            src="../../images/strec-film-3.jpg"
           />
         </Col>
         <Col className="col-lg-3 col-sm-6 col-md-6 d-flex flex-column align-items-center">
           <h4>Diger Ürünler</h4>
           <img
             className="img-fluid"
-            src="../src/assets/paket-tuz.jpg"
+            src="../../images/paket-tuz.jpg"
           />
         </Col>
       </Row>
@@ -86,19 +86,19 @@ function ProductCategorySection() {
 
         <div className="col-lg-3 col-md-3 col-sm-6 d-flex column-gap-2 justify-content-center">
           <div className="d-flex align-items-center  sponsor-content">
-            <img src="../src/assets/köfteciYusuf.png" />
+            <img src="../../images/köfteciYusuf.png" />
           </div>
         </div>
         <div className="col-lg-3 col-md-3 col-sm-6 d-flex column-gap-2 justify-content-center">
           <div className="d-flex align-items-center sponsor-content">
-            <img src="../src/assets/lcwaikikilogo.png" />
+            <img src="../../images/lcwaikikilogo.png" />
           </div>
         </div>
         <div className="col-lg-3 col-md-3 col-sm-6 d-flex column-gap-2 justify-content-center">
           <div className="d-flex align-items-center sponsor-content">
             <img
               className="img-fluid"
-              src="../src/assets/medipol-Logo.png"
+              src="../../images/medipol-Logo.png"
             />
           </div>
         </div>
@@ -106,7 +106,7 @@ function ProductCategorySection() {
           <div className="d-flex align-items-center sponsor-content">
             <img
               className="img-fluid"
-              src="../src/assets/çevreLogo.png"
+              src="../../images/çevreLogo.png"
             />
           </div>
         </div>
