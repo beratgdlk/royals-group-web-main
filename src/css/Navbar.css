@@ -1,24 +1,28 @@
 .burger-icon {
-  border: 1px solid rgb(150, 150, 150);
   border-radius: 15px;
-  transform: scale(1.5);
+  transform: scale(1.7);
   color: yellow !important;
-  box-shadow: 0 0 6px gray;
 }
 
 .navbar {
-  box-shadow: 0 3px 7px rgb(10, 10, 10);
+  background-color: rgba(255, 255, 255, 0.856) !important;
   margin: 0px !important;
-  background-color: #ffffff !important;
-  color: rgb(10, 10, 10) !important;
+  box-shadow: 0 2px 5px rgb(87, 87, 87);
 }
 .navbar .navbar-brand {
-  width: 140px;
+  width: 150px;
   height: 100px;
 }
 .navbar .dropdown-menu {
-  background-color: #006a67;
+  background-color: #006a67 !important;
   font-size: 20px !important;
+}
+.navbar .navbar-nav .nav-link {
+  text-decoration: none;
+}
+.navbar .navbar-nav .nav-link:hover {
+  text-decoration: underline;
+  transition: 3s;
 }
 
 .catalog {
@@ -31,14 +35,4 @@
 
 a {
   color: #ffffff !important;
-}
-
-.navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 215, 0, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
-}
-
-.navbar-toggler {
-  border-color: rgb(255, 215, 0) !important;
-}
-
-/*# sourceMappingURL=Navbar.css.map */
+}/*# sourceMappingURL=Navbar.css.map */

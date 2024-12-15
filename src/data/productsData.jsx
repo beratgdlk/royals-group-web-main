@@ -1,4 +1,5 @@
 // Temizlik Kağıtları
+import besteZKatliHavlu from "../assets/beste-z-katlı-havlu.png";
 import gloraZKatliHavlu from "../assets/glora-z-katlı-havlu.png";
 import miradaZKatlamaHavlu from "../assets/mirada-z-katlama-havlu.png";
 import miradaHareketliHavlu from "../assets/mirada-hareketli-havlu.png";
@@ -93,7 +94,7 @@ import sizdirmazKap5 from "../assets/sızdırmaz-kap5.jpeg";
 export const Products = {
   temizlikKagitlari: [
     {
-      image: "",
+      image: besteZKatliHavlu,
       name: "Beste Z Katlı Havlu",
     },
     {

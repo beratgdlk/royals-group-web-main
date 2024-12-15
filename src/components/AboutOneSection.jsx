@@ -1,5 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
-import kofteciYusuf from "../assets/köfteciYusuf.png";
+import kofteciYusufLogo from "../assets/köfteciYusuf.png";
 import lcwLogo from "../assets/lcwaikikilogo.png";
 import medipolLogo from "../assets/medipol-Logo.png";
 import cevreLogo from "../assets/çevreLogo.png";
@@ -52,7 +52,7 @@ function AboutOneSection() {
 
         <div className="col-lg-3 col-md-3 col-sm-6 d-flex column-gap-2 justify-content-center">
           <div className="d-flex align-items-center  sponsor-content">
-            <img src={kofteciYusuf} alt="Köfteci Yusuf Logo" />
+            <img src={kofteciYusufLogo} alt="Köfteci Yusuf Logo" />
           </div>
         </div>
         <div className="col-lg-3 col-md-3 col-sm-6 d-flex column-gap-2 justify-content-center">
