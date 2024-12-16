@@ -1,5 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import Logo from "../assets/logo.png";
+import Logo from "../assets/images/logo.png";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
@@ -64,7 +64,7 @@ function NavbarComp() {
                   </li>
                   <li className="nav-item justify-content-start">
                     <a
-                      href="/public/royalskatalog.pdf"
+                      href="/royalskatalog.pdf"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="catalog text-black justify-content-start text-start  nav-link"
@@ -274,7 +274,7 @@ function NavbarComp() {
               </li>
               <li className="nav-item ">
                 <a
-                  href="/src/assets/royalskatalog.pdf"
+                  href="/royalskatalog.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="catalog nav-link text-black"

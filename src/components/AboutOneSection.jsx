@@ -1,8 +1,8 @@
 import { Container, Row, Col } from "react-bootstrap";
-import kofteciYusufLogo from "../assets/köfteciYusuf.png";
-import lcwLogo from "../assets/lcwaikikilogo.png";
-import medipolLogo from "../assets/medipol-Logo.png";
-import cevreLogo from "../assets/çevreLogo.png";
+import kofteciYusufLogo from "/public/images/köfteciYusuf.png";
+import lcwLogo from "/public/images/lcwaikikilogo.png";
+import medipolLogo from "/public/images/medipol-Logo.png";
+import cevreLogo from "/public/images/çevreLogo.png";
 
 function AboutOneSection() {
   return (
